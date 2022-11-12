@@ -1,0 +1,43 @@
+    <html>
+    <head>
+       <title>Voice To Song For Dr Dolitte Play</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="//cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <h1>Voice To Song For Dr Dolitte Play App 
+<img id="logo_img" src="selfie.jpeg">
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you speak a line of the script</h4>
+        
+        <div class="form-group">
+            <h3>Let The Play Go On And This App Will Play The required Songs</h3>
+            <label>Your voice output : </label>
+<textarea id="textbox" class="form-control" readonly="true"></textarea>
+        </div>
+<button class="btn-primary" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>Your Song Play Bar : </label>
+        <div id="mp3"></div>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result"></div>
+    </center>
+    </div>
+    <audio id="le_le" src="https://github9088106153.github.io/le-le-re/Selfie%20Le%20Le%20Re%20-%20Bajrangi%20Bhaijaan.mp3"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>    
